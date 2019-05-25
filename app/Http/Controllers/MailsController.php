@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\UserMail;
 use App\Mail;
-use App\RecordActivity;
 
 class MailsController extends Controller
 {

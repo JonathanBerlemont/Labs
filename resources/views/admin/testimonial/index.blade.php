@@ -50,4 +50,24 @@
             </div>
         </div>
     </div>
+
+    <div class="card mx-5 w-75">
+        <div class="card-header">
+            <h3>All Testimonials</h3>
+        </div>
+        <div class="card-body" style="overflow-y: scroll; height: 200px">
+            @forelse (App\Testimonial::all() as $testimonial)
+                <div class="border-bottom d-flex w-100">
+                    {{\Illuminate\Support\Str::words($testimonial->message, $words = 15, $end='...')}}
+                    <form action="/admin/testimonials/{{$testimonial->id}}" method="post" class="ml-auto">
+                        @csrf
+                        @method('delete')
+                        <button type="submit" class="btn btn-default text-danger p-0">X</button>
+                    </form>
+                </div>
+            @empty
+                No testimonials yet
+            @endforelse
+        </div>
+    </div>
 @endsection

@@ -36,4 +36,11 @@ class TestimonialsController extends Controller
 
         return back()->with('success', 'Testimonial stored');
     }
+
+    public function destroy($id)
+    {
+        Testimonial::find($id)->delete();
+
+        return back()->with('success', 'Testimonial deleted');
+    }
 }

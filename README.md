@@ -12,4 +12,4 @@ You could send mails to the site owners and subscribe to a newsletter.
 On this side, which was the most interesting, you could administrate everything depending on whether you were a writer or an admin. 
 
 Writers could view everything besides the mails and newsletter subscribers. They could only write new articles.
-Admins could handle their staff's roles, see the mails sent to them through the website using an interface close to a real mail inbox and modify contact informations.
+Admins could handle their staff's roles, see the mails sent to them through the website using an interface close to a real mail inbox and modify contact informations. They also could moderate the comments posted under the articles.

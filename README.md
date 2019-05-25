@@ -1,6 +1,7 @@
 # Labs
 
 The purpose of this project was learning to use the Laravel framework on a realistic scale with a website that has many features.
+The dsign of the public side of the website was given to me so I could focus completely on Laravel and not waste time designing.
 
 ## Public Side
 On this website, you could see various projects and services provided by the team. 
